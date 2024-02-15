@@ -1,0 +1,43 @@
+.app {
+  padding: 1rem;
+}
+
+.app-title {
+  color: orange;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #fff;
+  height: auto;
+  padding: 1rem;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer {
+  color: #333;
+  display: flex;
+}
+.footer .employer {
+  margin-right: 4px;
+}
+
+.load-more-btn {
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
