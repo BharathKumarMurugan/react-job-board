@@ -20,7 +20,6 @@ function App() {
       itemIdsList = await response.json();
       setJobIds(itemIdsList);
     }
-    console.log({itemIdsList})
     const itemIdsPerPage = itemIdsList.slice(
       cp * ITEMS_PER_PAGE,
       cp * ITEMS_PER_PAGE + ITEMS_PER_PAGE
